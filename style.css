@@ -1,0 +1,716 @@
+.main-div {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 40px;
+    
+}
+
+.ad-img > img {
+    height: 200px;
+    width: 200px;
+}
+
+
+.Hero-section {
+    display: flex;
+    width: 100%;
+    gap: 3rem;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    flex-wrap: wrap;
+    
+}
+.Headline {
+  flex: 2;
+  background-color: #F5F6F8 ;
+  padding: 20px;
+  border-radius: 10px;
+  border: 3px solid blanchedalmond;
+  min-width: 200px;
+  justify-content: center;
+  
+}
+.ad-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: #F5F6F8 ;
+     margin-right: auto;
+     border-radius: 10px;
+   border: 3px solid blanchedalmond;
+   min-width: 200px;
+}
+.para1 {
+    margin-bottom: 70px;
+    padding: 0;
+}
+
+
+
+.button11 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #4F73B8; 
+    color: white;
+}
+
+.button12 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #E26A3A;
+    color: white;
+}
+
+.achievements {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+    width: 100%;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.achievements > .Projects  {
+    background-color:#F5F6F8 ;
+    min-width: 210px;
+    border-radius: 100px;
+    padding: 5px;
+    border: 3px solid salmon;
+    min-width: 200px;
+}
+.achievements > .Projects p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.course-cards {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    background-color:aqua ;
+    padding: 0px;;
+    border-radius: 10px;
+    min-width: 200px;
+}
+.h2 {
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+    background-color: #E26A3A;
+    border-radius: 10px;
+}
+.Beginner {
+    background-color: #3F5D7D;
+}
+
+.Intermediate {
+    background-color: #3E6F6C;
+}
+.Advanced {
+    background-color: #2F4561;
+}
+.h2 > h2{
+    color: white;
+}
+.title > p { 
+    padding: 0px 10px;
+}
+.features > ul {
+    list-style: none;
+    padding-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    text-align: left;  
+}
+
+.title > .button {
+     display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: none;   /* remove blue */
+}
+
+.title > .button button {
+   background-color: #E26A3A;
+    padding: 10px 20px;
+    min-width: 130px;
+    min-height: 50px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+/* Homepage finishes here and courses page starts here*/
+.Mian-CoursesPage {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 40px;
+    
+}
+.heading {
+width: 100%;
+color: blue; 
+margin-bottom: 25px;
+background-color: #F5F6F8 ;
+}
+.heading > h1 {
+    font-size: 2rem;
+      
+}
+.heading > p {
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.filter {
+    display: flex;
+    gap: 1rem;
+    flex: 1;
+    justify-content: space-around;
+    margin-bottom: 35px;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+.fil {
+    background-color:#F5F6F8 ;
+    border: 3px solid burlywood;
+    padding: 8px 16px;
+    border-radius: 20px;
+    max-width: 100px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    color: black;
+}
+.all {
+    background-color: #4F73B8;
+    color: white;
+}
+
+.courses {
+    display: flex;
+    width: 100%;
+    margin-bottom: 25px;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;    
+    flex-wrap: wrap;
+}
+
+.course-container {
+    background-color: #F5F6F8;
+    padding: 30px;
+    border-radius: 10px;
+   
+}
+.course-img > img {
+    display: block;
+    height: auto;
+    width: 100%;
+    margin: 0;
+max-width: 380px;
+margin-bottom: 0px;
+}
+.course-name {
+    background-color: #E26A3A;
+    max-width: 70px;
+    text-align: center;
+    padding: 1px;
+    margin-top: 0px;
+    border-radius: 10px;
+    color: white;
+}
+.course-text {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0px;
+}
+.course-img {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.name1 { background-color: olive;}
+.name2 { background-color: #3E6F6C;}
+.name3 { background-color: #E26A3A;}
+
+.course-text > p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.details-button {
+    margin-top: 20px;
+}
+.course-text button {
+    background-color: #4F73B8;
+    padding: 10px;
+    min-width: 150px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.3rem;
+}
+
+
+@media (max-width:768px) {
+    .Mian-CoursesPage {padding: 16px;}
+    .filter{justify-content: center;}
+    .course-container{ padding: 16px; }
+  .course-text button{
+    font-size: 1rem;
+    min-width: 130px;
+  }
+}
+
+/* Here end the styling of the courses page and starts the styling of pricing page*/
+.pricing-container {
+     display: flex;
+    flex-direction: column;
+    align-items: center;   /* ← THIS IS THE FIX */
+    min-height: 100vh;
+    padding: 40px;
+    background-color: #F5F6F8;
+}
+.pricing-container > h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+
+}
+.pricing-intro {
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    width: 100%;
+    gap: 3.5rem;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+
+    
+}
+.plan {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 0px;
+    border-radius: 10px;
+    align-items: center;
+    max-width: 300px;
+    margin-top:20px;
+    border: 3px solid burlywood;
+    padding-bottom: 20px;
+}
+.popular {
+    background-color: #E26A3A;
+    margin-top: 0;
+    max-width: 140px;  
+    position: absolute;
+    top: -12px;                /* moves it above the card */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 6px 14px;
+    border-radius: 8px;
+    z-index: 10;    
+}
+.planB  {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    background-color:white ;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    padding-bottom: 20px;
+   align-items: center;
+   position: relative;
+   overflow: visible; 
+   border: 3px solid burlywood;
+}
+.popular > p {
+    margin: 0;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    position: static;
+     margin: 0;
+  font-size: 12px;
+}
+
+.plan hr{
+  width: 100%;
+  align-self: center;
+  margin: 12px 0;
+  max-width: 200px;
+}
+.planB > hr{
+  width: 100%;
+  align-self: center;
+  margin: 12px 0;
+  max-width: 200px;
+}
+
+.builder-head {
+    background-color: #4F73B8;
+    margin: 0;
+    margin-bottom: 30px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+   text-align: center;
+   color: white;
+   padding: 22px 0 12px;
+}
+
+.price {
+    display: inline;
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1;
+}
+.major {
+     font-size: 2.2rem; 
+     margin-right: 0;
+}
+.dollar {
+    font-size: 1rem;
+    display: inline;   /* creates the right column */
+    vertical-align: top;
+}
+.price-right {
+    display: inline;   /* creates the right column */
+  vertical-align: top;     /* aligns this column to the top of $9 */
+  margin-left: 0;
+}
+
+.minor{
+   display: inline;          /* first line inside the column */
+  font-size: 1.1rem;
+  line-height: 1;
+  margin-left: 0;
+  vertical-align: top;
+}
+.period{
+   display: block;          /* second line inside the column */
+  font-size: 0.65rem;
+  font-weight: 500;
+  line-height: 1;
+  margin-top: 2px;
+}
+.headSP {
+    background-color: #3F5D7D;
+    color: white;
+    margin-top: 0;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+.features-price {
+    margin-bottom: 10px;
+}
+.button {
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #4F73B8;
+    width: 100%;
+    max-width: 200px;
+    border: none;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.planB > button{
+    background-color: #E26A3A;
+}
+
+.comparison {
+    width: 100%;
+    justify-content: center;
+}
+
+.plan-table{
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-collapse: collapse;   /* makes borders clean */
+  background: #fff;
+  border: 3px solid burlywood;
+ 
+}
+
+.plan-table th,
+.plan-table td{
+  border: 1px solid #e6e6e6;
+  padding: 12px 14px;
+  text-align: center;
+}
+
+.plan-table thead th{
+  background: #f3f5f8;
+  font-weight: 700;
+}
+
+.plan-table tbody th{
+  text-align: left;            /* row labels left aligned */
+  font-weight: 700;
+  background: #fff;
+}
+
+/* optional: make check marks green */
+.plan-table td{
+  color: black;              /* keep your orange if you want */
+}
+.plancompare > h3 {
+    text-align: center;
+}
+
+@media (max-width: 768px){
+  .pricing-container{
+    padding: 16px;
+  }
+
+  .plans{
+    gap: 1.2rem;
+  }
+
+  .plan,
+  .planB{
+    max-width: 100%;
+  }
+
+  /* make the table scroll on small screens */
+  .comparison{
+    overflow-x: auto;
+  }
+
+  .plan-table{
+    min-width: 520px; /* keeps columns readable, allows scroll */
+  }
+}
+
+/* HERE BEGINS THE STYLING OF CONTACT PAGE*/
+
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    
+     width: 100%;
+    padding: 40px;
+    align-items: center
+}
+.contact-text {
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+    text-align: left;
+}
+/* LEFT + RIGHT columns */
+.info-card {
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+/* Each contact row */
+.email,
+.location,
+.hours {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 25px;
+}
+
+/* Icon circle */
+.icon-box {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+/* Text column */
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content h4 {
+    margin: 0;
+    font-size: 16px;
+    color: white;
+}
+
+.content p {
+    margin: 4px 0 0;
+    font-size: 14px;
+    color: white;
+}
+.fooms {
+    width: 100%;
+    max-width: 400px;
+    
+}
+.fooms-inbut {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fom {
+    display: flex;
+    flex-direction: column;
+}
+
+.fom label {
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+.fom input,
+.fom textarea {
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+.fom textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+.fom input:focus,
+.fom textarea:focus {
+    border-color: #007bff;
+}
+
+ .contact-page {
+    background-color: #E26A3A;
+    
+ }
+
+ .site-header {
+    background-color: #2f4f6f;
+    padding: 12px 0;
+}
+
+.header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.site-footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    margin-top: 60px;
+}
+
+.footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.footer-links a {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #555;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+
+    .contact-container {
+        padding: 20px;
+    }
+
+    .info-card {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .fooms {
+        max-width: 100%;
+    }
+
+    .email,
+    .location,
+    .hours {
+        gap: 0.75rem;
+    }
+
+    .fom input,
+    .fom textarea {
+        font-size: 16px;
+    }
+}
